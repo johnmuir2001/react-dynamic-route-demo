@@ -25,7 +25,7 @@ const App = () => {
 
         <Routes>
           <Route path="react-dynamic-route-demo/" exact element={ <Home allMovies={allMovies} /> } />
-          <Route path="react-dynamic-route-demo/product/:id" exact element={ <Movie /> } />
+          <Route path="product/:id" element={ <Movie /> } />
         </Routes>
       </BrowserRouter>
     </>
