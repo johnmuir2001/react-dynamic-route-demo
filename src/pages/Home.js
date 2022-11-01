@@ -8,7 +8,7 @@ const Home = (props) => {
             <h1>Home Page</h1>
             {props.allMovies.map((film, index) => {
                 return(
-                    <Link key={index} to={`/product/${film.id}`}>
+                    <Link key={index} to={`react-dynamic-route-demo/product/${film.id}`}>
                         <Poster src={film.image} alt={film.title}/>
                     </Link>
                 )
