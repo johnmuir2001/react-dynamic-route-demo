@@ -20,12 +20,12 @@ const App = () => {
     <>
       <BrowserRouter>
         <NavBar>
-          <NavItem to="/">Home</NavItem>
+          <NavItem to="react-dynamic-route-demo/">Home</NavItem>
         </NavBar>
 
         <Routes>
-          <Route path="/" element={ <Home allMovies={allMovies} /> } />
-          <Route path="/product/:id" element={ <Movie /> } />
+          <Route path="react-dynamic-route-demo/" element={ <Home allMovies={allMovies} /> } />
+          <Route path="react-dynamic-route-demo/product/:id" element={ <Movie /> } />
         </Routes>
       </BrowserRouter>
     </>
